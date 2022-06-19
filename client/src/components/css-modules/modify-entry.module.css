@@ -1,0 +1,109 @@
+.pageHeaderFlexbox {
+    margin: 50px 100px 80px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow: none;
+    min-width: 440px;
+}
+
+.pageHeaderFlexbox h2 {
+    margin: 0px;
+    flex: 100 100 auto;
+    display: flex;
+    align-items: center;
+    overflow-wrap: break-word;
+    font-size: 28px;
+}
+
+.submitButton {
+    margin-left: 15px;
+    width: 35px;
+    flex: 0 1 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.addButton {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: white;
+    cursor: pointer;
+    font-size: 35px;
+    border: 1px solid green;
+    color: green;
+    border-radius: 5px;
+    transition: .05s;
+}
+
+.addButton:active {
+    background-color: green;
+    color: white;
+}
+
+.saveButton {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    cursor: pointer;
+    font-size: 35px;
+    border: 1px solid #848484;
+    color: #848484;
+    border-radius: 5px;
+    transition: .05s;
+}
+
+.saveButton:active {
+    background-color: #848484;
+    color: white;
+}
+
+.entryComponent {
+    font-size: 24px;
+    margin: 50px;
+    margin-right: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px #dddddd;
+    padding: 20px;
+    min-width: 400px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.entryComponent hr {
+    height: 1px;
+    background-color: #dcdcdc;
+    border: none;
+}
+
+.dateSelector {
+    border: none;
+    border-bottom: 2px solid #848484;
+    color: #848484;
+    margin: 30px 0px 10px 0px;
+    padding: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+.textbox {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #848484;
+    color: #848484;
+    margin: 30px 0px 10px 0px;
+    padding: 1px;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    resize: none;
+    outline: none;
+}
+
+.textbox:active {
+    color: #848484;
+}

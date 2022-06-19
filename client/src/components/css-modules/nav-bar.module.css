@@ -1,0 +1,35 @@
+.navColumn {
+    height: 100%;
+    width: 225px;
+    position: fixed;
+    border: #dedede;
+    box-shadow: 5px 0px 20px -1px #dddddd;
+    background-color: white;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.navColumn hr {
+    height: 1px;
+    background-color: #dcdcdc;
+    border: none;
+}
+
+.navColumn a {
+    margin: 50px 45px 40px 45px;
+    text-decoration: none;
+    color: #848484;
+    display: block;
+    transition: 0.15s;
+}
+
+.navColumn a:hover {
+    font-weight: bold;
+}
+
+.navColumn a:active {
+    background-color: red;
+}
